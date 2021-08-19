@@ -7,3 +7,10 @@
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+img{
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    height:auto;
+  }
