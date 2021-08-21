@@ -1,0 +1,11 @@
+body{
+    background-color:lightskyblue;
+}
+
+#main{
+    background-color: rgba(162, 186, 209, 0.637);
+}
+
+input[type= "text"]{
+    border: none;
+}

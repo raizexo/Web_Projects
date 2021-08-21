@@ -8,14 +8,22 @@
   <link rel="stylesheet" href="style.css" />
     <title>Survey Form</title>
 </head>
-<body>
-<div id = "title" class="text-center">The sample form</div>    
-<p id = "description"></p>
+<body class="contianer-fluid" >
+  <div id="main" class="container">
+<div  class="text-center"><h1 id = "title">The sample form</h1> </div>    
+<p id = "description"> Here is the form discription</p>
 <form id="survey-form">
-  <div class="form-group">
-    <label for="name"></label>
-  </div>
+  <label for="namefor" id="name-label">Name</label>
+  <input id = "name" name = "namefor" type="text"  class="form-control" placeholder="Your Name" required>
+  <label for="email" id="email-label">Email</label>
+  <input id = "email" name ="email" type="email" class="form-control" placeholder="Your Email" required>
+  <label for="phone-number" id="number-label">Phone Number</label>
+  <input type="number" name = "phone-number" class = "form-control" placeholder = "Your Phone number" id="number">
+  <input type="submit">
+
 </form>  
+
+</div>
 <!-- This script is used for running the FCC tests-->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
