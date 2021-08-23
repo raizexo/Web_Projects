@@ -23,10 +23,11 @@
       integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="run.js" ></script>
+   
   </head>
   <body>
-    <main id="main-document" class="container-fluid">
+    <main id="main-doc" class="container-fluid">
+        <div class="container">
         <nav id="navbar" class="navbar-dark bg-dark">
           <button
             class="navbar-toggler"
@@ -39,6 +40,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <header class="text-center" id = "nav-head"><h2>An Informal Intro to Python</h2></header>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
@@ -63,9 +65,9 @@
             </ul>
           </div>
         </nav>
-        <div class="container">
+        
                   <section class="main-section" id="Introduction">
-          <h2>Introduction</h2>
+          <header><h2>Introduction</h2></header>
           <p>
             In the following examples, input and output are distinguished by the
             presence or absence of prompts (>>> and …): to repeat the example,
@@ -96,7 +98,7 @@
           </div>
         </section>
         <section class="main-section" id="Using_Python_as_a_Calculator">
-          <h2>Using Python as a Calculator</h2>
+          <header><h2>Using Python as a Calculator</h2></header>
           <p>
             Let’s try some simple Python commands. Start the interpreter and
             wait for the primary prompt, <code>>>></code>. (It shouldn’t take
@@ -104,7 +106,7 @@
           </p>
         </section>
         <section class="main-section" id="Numbers">
-          <h3>Numbers</h3>
+          <header><h3>Numbers</h3></header>
           <p>
             The interpreter acts as a simple calculator: you can type an
             expression at it and it will write the value. Expression syntax is
@@ -205,7 +207,8 @@
           <p>This variable should be treated as read-only by the user. Don’t explicitly assign a value to it — you would create an independent local variable with the same name masking the built-in variable with its magic behavior.</p>
         <p>In addition to int and float, Python supports other types of numbers, such as Decimal and Fraction. Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the imaginary part (e.g. 3+5j).</p>
         </section>
-        <section class="main-section" id="Strings"><h3>Strings</h3>
+        <section class="main-section" id="Strings">
+            <header><h3>Strings</h3></header>
         <p>Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ('...') or double quotes ("...") with the same result. \ can be used to escape quotes:</p>
         <div class="code">
             <code>
@@ -275,8 +278,12 @@ Usage: thingy [OPTIONS] <br>
             </code>
           </div>
         </section>
-        <section class="main-section" id="Lists"><h3>Lists</h3></section>
+        <section class="main-section" id="Lists">
+            <header><h3>Lists</h3></header>
+        </section>
       </div>
     </main>
+    <script type="text/javascript" src="run.js" ></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
