@@ -25,47 +25,22 @@
     ></script>
    
   </head>
-  <body>
-    <main id="main-doc" class="container-fluid">
-        <div class="container">
-        <nav id="navbar" class="navbar-dark bg-dark">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <header class="text-center" id = "nav-head"><h2>An Informal Intro to Python</h2></header>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#Introduction"
-                  >Introduction <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Using_Python_as_a_Calculator"
-                  >Using Python as a Calculator</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Numbers">Numbers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Strings">Strings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Lists">Lists</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        
+  <body class="container-fluid">
+    <div class="navboi col-2 ">
+      <nav id = "navbar">
+        <header><h3>An Informal <br>Intro to Python</h3></header>
+        <a href="#Introduction" class="nav-link">Introduction</a> 
+  <a href="#Using_Python_as_a_Calculator" class="nav-link">Using Python as a Calculator</a> 
+  <a href="#Numbers" class="nav-link">Numbers</a> 
+  <a href="#Strings" class="nav-link">Strings</a>
+  <a href="#Lists" class="nav-link">Lists</a>
+  <a href="#For_Further_Reading" class="nav-link">For Further Reading</a>
+    </nav>
+    </div>
+    
+
+    <main id="main-doc">
+        <div class="container col-6">
                   <section class="main-section" id="Introduction">
           <header><h2>Introduction</h2></header>
           <p>
@@ -280,7 +255,29 @@ Usage: thingy [OPTIONS] <br>
         </section>
         <section class="main-section" id="Lists">
             <header><h3>Lists</h3></header>
+            <p>
+              Python knows a number of compound data types, used to group together other values. The most versatile is the list, which can be written as a list of comma-separated values (items) between square brackets. Lists might contain items of different types, but usually the items all have the same type.
+            </p>
+            <div class="code">
+              <code>
+                >>> squares = [1, 4, 9, 16, 25] <br>
+                >>> squares <br>
+                [1, 4, 9, 16, 25] <br>
+              </code>
+            </div>
         </section>
+        <section class="main-section" id="For_Further_Reading">
+          <header><h3>For Further Reading</h3></header>
+          <p>
+            to find more about python please check the follwing links:
+            <li><a href="#" class="col">Link1</a></li>
+            <li><a href="#" class="col">Link1</a></li>
+            <li><a href="#" class="col">Link1</a></li>
+            <li><a href="#" class="col">Link1</a></li>
+            <li><a href="#" class="col">Link1</a></li>
+          </p>
+        </section>
+        
       </div>
     </main>
     <script type="text/javascript" src="run.js" ></script>
