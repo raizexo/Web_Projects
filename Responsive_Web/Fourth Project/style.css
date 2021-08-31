@@ -4,3 +4,44 @@
 h1 {
   font-family: "Roboto", sans-serif;
 }
+
+#nav-bar {
+  margin-top: 0;
+  width: 100%; /* i'm assuming full width */
+  height: 80px; /* change it to desired width */
+}
+
+#header-img {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100px;
+  background-color: white;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+nav a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px; /* if you want it to take the full height of the bar */
+  line-height: 80px;
+  float: right;
+  text-decoration: none;
+  color: #29abe2;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.center-boi {
+  text-align: center;
+  width: 70%;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+}
