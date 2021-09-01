@@ -6,9 +6,12 @@ h1 {
 }
 
 #nav-bar {
+  position: fixed;
   margin-top: 0;
+  padding: 0px;
   width: 100%; /* i'm assuming full width */
   height: 80px; /* change it to desired width */
+  background-color: white;
 }
 
 #header-img {
@@ -42,6 +45,10 @@ nav a {
   text-align: center;
   width: 70%;
 }
+#About-us{
+  margin-top: 100px;
+}
+
 h3 {
   font-family: "Roboto", sans-serif;
   
@@ -49,14 +56,14 @@ h3 {
 #features{
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-auto-rows: 330px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .features{
-  background-color: blueviolet;
+ 
   display: block;
   max-width: 200px;
   text-align:center;
@@ -66,4 +73,19 @@ h3 {
 .features > img{
   max-width: 200px;
   height: auto;
+}
+
+#video{
+  margin-top: 50px;
+}
+
+#contact{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #29abe2;
+  }
 }
